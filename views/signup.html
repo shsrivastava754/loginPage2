@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Signup</title>
+</head>
+<body>
+    <h1>New User</h1>
+
+    <form class="registerForm" action="/signupPost" method="post">
+        <div class="mainForm">
+            <input type="email" placeholder="Enter your email" name="email" id="email" required>
+            <input type="text" placeholder="Enter username" name="username" class="username" id="username" required>
+            <input type="password" placeholder="Enter Password" name="password" id="password" required>
+            <!-- <span class="fa-sharp fa-solid fa-eye toggle" id="toggle" onclick="handleToggle()"></span> -->
+
+            <button type="submit" class="submitBtn">Register</button>
+
+            <p>Already have an account? <a href="/">Login Here</a></p>
+        </div>
+    </form>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="https://kit.fontawesome.com/63bbcc9489.js" crossorigin="anonymous"></script>
+</body>
+</html>
